@@ -56,7 +56,7 @@ jobs:
           ls -l artifacts/
           cd artifacts
           rm *riscv*
-          rm *legacy*
+          # rm *legacy*
           rm *aarch64*
           rm *deps*
           rm *firmware_4*
