@@ -28,5 +28,5 @@ sed -i 's/= XenIoPvhDxe/= '${brand}'IoPvhDxe/g' OvmfPkg/XenIoPvhDxe/XenIoPvhDxe.
 sed -i 's/= XenPlatformPei/= '${brand}'PlatformPei/g' OvmfPkg/XenPlatformPei/XenPlatformPei.inf
 sed -i 's/BASE_NAME                 = XenPvBlkDxe/BASE_NAME                 = '${brand}'PvBlkDxe/g' OvmfPkg/XenPvBlkDxe/XenPvBlkDxe.inf
 sed -i 's/= XenResetVector/= '${brand}'ResetVector/g' OvmfPkg/XenResetVector/XenResetVector.inf
-sed -i 's/0x29c0/0x4660/g' OvmfPkg/Include/IndustryStandard/Q35MchIch9.h
+sed -i 's/0x29C0/0x4660/g' OvmfPkg/Include/IndustryStandard/Q35MchIch9.h
 echo "结束sed工作"
